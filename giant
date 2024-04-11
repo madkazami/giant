@@ -1,0 +1,29 @@
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+rustup update stable
+
+rustc --version
+
+sudo apt install 
+odesource.com/setup_16.x -o /tmp/nodesource_setup.sh
+
+sudo bash /tmp/nodesource_setup.sh
+
+sudo apt install nodejs
+
+node -v
+
+cd ~
+
+sudo apt-get update
+sudo apt-get install ca-certificates curl gnupg
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+
+
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker  sudo tee /etc/apt/sources.
+
+
+wget https://dl.google.com
